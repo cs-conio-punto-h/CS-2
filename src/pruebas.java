@@ -5,8 +5,12 @@ import java.util.LinkedList;
 
 public class pruebas {
 
-    private static final String desktop = "C:" + File.separator + "Users"
-            + File.separator + System.getProperty("user.name") + File.separator + "Dropbox" + File.separator + "PL Practica" + File.separator + "Java (PRACTICA)" + File.separator;
+    private static final String desktop = "/home/t/Descargas/";
+    
+//    private static final String desktop = "C:" + File.separator + "Users"
+//            + File.separator + System.getProperty("user.name") 
+//            + File.separator + "Dropbox" + File.separator + "PL Practica" 
+//            + File.separator + "Java (PRACTICA)" + File.separator;
 
     private static String devCadena(Collection<VT> c) {
         String aux = "";
